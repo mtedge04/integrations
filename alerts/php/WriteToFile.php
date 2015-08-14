@@ -55,12 +55,12 @@ class KentikAlert {
                                       "key name: " . $this->key_name,
                                       "key value: " . $this->key_value,
                                       "device_name: " . $this->device,
-                                      $this->sup1_outport,
-                                      $this->sup2_outport,
-                                      $this->sup1_inint,
-                                      $this->sup2_inint,
-                                      $this->sup1_dst,
-                                      $this->sup2_dst,
+                                      "l4_dst_port_sup1:" . $this->sup1_outport,
+                                      "l4_dst_port_sup2:" . $this->sup2_outport,
+                                      "device_input_int_sup1:" . $this->sup1_inint,
+                                      "device_input_int_sup2:" . $this->sup2_inint,
+                                      "destination_IP_address_sup1:" . $this->sup1_dst,
+                                      "detsintation_IP_address_sup2:" . $this->sup2_dst,
                                       PHP_EOL
                                       )
                        );        
